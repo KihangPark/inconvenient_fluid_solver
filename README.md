@@ -1,19 +1,23 @@
 # inconvenient_fluid_solver
 Fully python based fluid solver.
 
-Main purpose of this package is understanding the fluid solver.
-For this purpose, this package does not use any 'convenient' extra module.
-This package does not have any dependency, so there is no any external black box.
-By same reason, this module was developed by python.
-Of course and 'exactly' python is not good choice to develop fluid solver,
-because fluid solver need to do heavy calculation.
-But python is good for debugging and tracking the logic of simulation,
-so development under python environment is intensional choice.
+Main purpose of this package is understanding the fluid solver and navier-stroke equation.  
+
+For this purpose, this package does not use any 'convenient' extra module.  
+This package does not have any dependency, so there is no any external black box.  
+
+By same reason, this module was developed by python.  
+Of course and 'exactly' python is not good choice to develop fluid solver,  
+because fluid solver need to do heavy calculation.  
+
+But python is good for debugging and tracking the logic of simulation,  
+so development under python environment is intensional choice.  
 
 # Usage
 
-One extra benefit of using python is jupyter-notebook.
-Using jupyter-notebook and matplot at the same time, this environment is good to use for investigating navier-stroke process.
+One extra benefit of using python is jupyter-notebook.  
+Using jupyter-notebook and matplot at the same time,  
+this environment is good to use for investigating navier-stroke process.
 From jupyter-notebook, user can test fluid simulation with below process.
 
     import matplotlib.pyplot as plt
@@ -88,8 +92,8 @@ From jupyter-notebook, user can test fluid simulation with below process.
                                                                                                                                 
     plt.show()
 
-# Jupyter-notebook sample
-[notebok sample] jupyter_test.ipynb  
+For hesitate user, pre calculated jupyter notebook is in root directory. 
+[notebok sample] /jupyter_test.ipynb  
 
 # Sample 
 
