@@ -92,8 +92,8 @@ From jupyter-notebook, user can test fluid simulation with below process.
                                                                                                                                 
     plt.show()
 
-For hesitate user, pre calculated jupyter notebook is in root directory. 
-[notebok sample] /jupyter_test.ipynb  
+For hesitate user, pre calculated jupyter notebook is in root directory.  
+[notebok sample](/jupyter_test.ipynb)  
 
 # Sample 
 
